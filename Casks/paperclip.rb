@@ -1,6 +1,6 @@
 cask "paperclip" do
-  version "0.2.0"
-  sha256 "bf2934803eb79e6986434896798be7829224e2d054205f896258cf147e9e810b"
+  version "0.3.0"
+  sha256 "3081db9886a6dc9412dc20d25f72d4e8d094d1042aeb4bd2e66e53a21116214c"
 
   # The release workflow builds one universal dmg, so there is a single url for Apple Silicon and Intel.
   url "https://github.com/annuai/paperclip/releases/download/v#{version}/Paperclip_#{version}_universal.dmg"
