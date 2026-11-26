@@ -1,6 +1,6 @@
 cask "paperclip" do
-  version "0.3.0"
-  sha256 "3081db9886a6dc9412dc20d25f72d4e8d094d1042aeb4bd2e66e53a21116214c"
+  version "0.3.1"
+  sha256 "cbdf7f265fc4851c34dcab4361c9e26a5b8f267fef0eb846b3014795a21f0ef5"
 
   # The release workflow builds one universal dmg, so there is a single url for Apple Silicon and Intel.
   url "https://github.com/annuai/paperclip/releases/download/v#{version}/Paperclip_#{version}_universal.dmg"
@@ -15,7 +15,7 @@ cask "paperclip" do
 
   # Paperclip updates itself in place, so Homebrew should not fight it.
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Paperclip.app"
 
